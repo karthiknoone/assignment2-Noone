@@ -43,4 +43,13 @@ This is the Menu, location and price table
 | Nuggets	    | McDonalds	| $1.60        |
 
 
+---
+## Pithy Quotes
+
+As Stephen King said:
+
+> If you don't have time to read, you don't have the time (or the tools) to write. Simple as that.
+
+> We write to taste life twice, in the moment and in retrospect
+
 
