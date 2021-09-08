@@ -24,3 +24,8 @@ Vizag is the **largest city** and the proposed administrative capital of the Ind
 
 6. Reached kansas Airport,friend came to pick me up.
    1. After long 23 hours of journery Successfully reached Maryville.
+
+***
+1. I have brought a neck pillow for travel purpose.
+2. I have brought the travel power adpater.
+3. I have brought some medicines in case of emergency during travelling
