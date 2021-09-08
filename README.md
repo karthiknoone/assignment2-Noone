@@ -31,3 +31,16 @@ Vizag is the **largest city** and the proposed administrative capital of the Ind
 3. I have brought some medicines in case of emergency during travelling
 
 Take me to [AboutMe](AboutMe.md)
+
+## Menu Section
+This is the Menu, location and price table
+
+| Menu          | Location	| Price        |
+| ------------- | ----------| ---------    |
+| Coco-cola	    | McDonalds	| $1.00        |
+| Mc Chicken	| McDonalds	| $1.59        |
+| Oreo Mc Furry | McDonalds	| $1.20        |
+| Nuggets	    | McDonalds	| $1.60        |
+
+
+
