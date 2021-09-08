@@ -26,9 +26,9 @@ Vizag is the **largest city** and the proposed administrative capital of the Ind
    1. After long 23 hours of journery Successfully reached Maryville.
 
 ***
-1. I have brought a neck pillow for travel purpose.
-2. I have brought the travel power adpater.
-3. I have brought some medicines in case of emergency during travelling
+- I have brought a neck pillow for travel purpose.
+- I have brought the travel power adpater.
+- I have brought some medicines in case of emergency during travelling
 
 Take me to [AboutMe](AboutMe.md)
 
@@ -52,4 +52,37 @@ As Stephen King said:
 
 > We write to taste life twice, in the moment and in retrospect
 
+---
+## Code Fencing
 
+*union_sets opeartion* from*Disjoint Set Union* 
+
+> In computer science, the union_sets opeartion is used in efficient implementation for controlling of tree height.
+> For union by rank, a node stores its rank, which is an upper bound for its height. When a node is initialized, its rank is set to zero. To merge trees with roots a and b,
+> First compare their ranks. If the ranks are different, then the larger rank tree becomes the parent, and the ranks of a and bdo not change.
+> If the ranks are the same, then either one can become the parent, but the new parent's rank is incremented by one. While the rank of a node is clearly related to its height, storing ranks is more efficient than storing heights. The height of a node can change during a Find operation, so storing ranks avoids the extra effort of keeping the height correct.
+
+union_sets opeartion [Reference_link](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)
+
+code for union_sets opeartion
+
+```
+void make_set(int v) {
+    parent[v] = v;
+    rank[v] = 0;
+}
+
+void union_sets(int a, int b) {
+    a = find_set(a);
+    b = find_set(b);
+    if (a != b) {
+        if (rank[a] < rank[b])
+            swap(a, b);
+        parent[b] = a;
+        if (rank[a] == rank[b])
+            rank[a]++;
+    }
+}
+```
+
+union_sets opeartion [Code_link](https://cp-algorithms.com/data_structures/disjoint_set_union.html)
